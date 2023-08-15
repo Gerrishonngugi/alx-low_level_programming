@@ -26,5 +26,5 @@ int print_sign(int n)
 	}
 
 	/* This return statement should not be reached, but it's included for completeness. */
-	return 0;
+	return (0);
 }
