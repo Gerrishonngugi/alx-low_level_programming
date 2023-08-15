@@ -9,22 +9,22 @@
  */
 int print_sign(int n)
 {
-    if (n > 0)
-    {
-        _putchar('+');
-        return (1);
-    }
-    else if (n == 0)
-    {
-        _putchar('0');
-        return (0);
-    }
-    else if (n < 0)
-    {
-        _putchar('-');
-        return (-1);
-    }
+	if (n > 0)
+	{
+		_putchar('+');
+		return (1);
+	}
+	else if (n == 0)
+	{
+		_putchar('0');
+		return (0);
+	}
+	else if (n < 0)
+	{
+		_putchar('-');
+		return (-1);
+	}
 
-    /* This return statement should not be reached, but it's included for completeness. */
-    return 0;
+	/* This return statement should not be reached, but it's included for completeness. */
+	return 0;
 }
